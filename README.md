@@ -1,0 +1,4 @@
+Animagic
+========
+
+Animation Prototyping Tool
