@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5861303C19001DAF00D27A8B /* SBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861303B19001DAE00D27A8B /* SBTextField.m */; };
+		588B0CCF190B5BF600AFD30E /* SBFramesConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 588B0CCE190B5BF600AFD30E /* SBFramesConfig.m */; };
+		58AD8BA218EA0B77001AB5F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD8BA118EA0B77001AB5F0 /* Foundation.framework */; };
+		58AD8BA418EA0B77001AB5F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD8BA318EA0B77001AB5F0 /* CoreGraphics.framework */; };
+		58AD8BA618EA0B77001AB5F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD8BA518EA0B77001AB5F0 /* UIKit.framework */; };
+		58AD8BAC18EA0B77001AB5F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58AD8BAA18EA0B77001AB5F0 /* InfoPlist.strings */; };
+		58AD8BAE18EA0B77001AB5F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AD8BAD18EA0B77001AB5F0 /* main.m */; };
+		58AD8BB218EA0B77001AB5F0 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AD8BB118EA0B77001AB5F0 /* SBAppDelegate.m */; };
+		58AD8BB418EA0B77001AB5F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AD8BB318EA0B77001AB5F0 /* Images.xcassets */; };
+		58AD8BBB18EA0B78001AB5F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD8BBA18EA0B78001AB5F0 /* XCTest.framework */; };
+		58AD8BBC18EA0B78001AB5F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD8BA118EA0B77001AB5F0 /* Foundation.framework */; };
+		58AD8BBD18EA0B78001AB5F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AD8BA518EA0B77001AB5F0 /* UIKit.framework */; };
+		58AD8BC518EA0B78001AB5F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58AD8BC318EA0B78001AB5F0 /* InfoPlist.strings */; };
+		58AD8BC718EA0B78001AB5F0 /* AnimagicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AD8BC618EA0B78001AB5F0 /* AnimagicTests.m */; };
+		58AD8BD118EA1A66001AB5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AD8BD018EA1A66001AB5F0 /* Main.storyboard */; };
+		58AD8BD718EBEF14001AB5F0 /* SBAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AD8BD618EBEF14001AB5F0 /* SBAnimationViewController.m */; };
+		FCD78C157C994025A696686A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B436EFF353B6405B8B53C2FF /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58AD8BBE18EA0B78001AB5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58AD8B9618EA0B77001AB5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AD8B9D18EA0B77001AB5F0;
+			remoteInfo = Animagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5861303A19001DAD00D27A8B /* SBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTextField.h; sourceTree = "<group>"; };
+		5861303B19001DAE00D27A8B /* SBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBTextField.m; sourceTree = "<group>"; };
+		588B0CCD190B5BF600AFD30E /* SBFramesConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBFramesConfig.h; sourceTree = "<group>"; };
+		588B0CCE190B5BF600AFD30E /* SBFramesConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBFramesConfig.m; sourceTree = "<group>"; };
+		58AD8B9E18EA0B77001AB5F0 /* Animagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AD8BA118EA0B77001AB5F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58AD8BA318EA0B77001AB5F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58AD8BA518EA0B77001AB5F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58AD8BA918EA0B77001AB5F0 /* Animagic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animagic-Info.plist"; sourceTree = "<group>"; };
+		58AD8BAB18EA0B77001AB5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58AD8BAD18EA0B77001AB5F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58AD8BAF18EA0B77001AB5F0 /* Animagic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animagic-Prefix.pch"; sourceTree = "<group>"; };
+		58AD8BB018EA0B77001AB5F0 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		58AD8BB118EA0B77001AB5F0 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		58AD8BB318EA0B77001AB5F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58AD8BB918EA0B78001AB5F0 /* AnimagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AD8BBA18EA0B78001AB5F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		58AD8BC218EA0B78001AB5F0 /* AnimagicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimagicTests-Info.plist"; sourceTree = "<group>"; };
+		58AD8BC418EA0B78001AB5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58AD8BC618EA0B78001AB5F0 /* AnimagicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimagicTests.m; sourceTree = "<group>"; };
+		58AD8BD018EA1A66001AB5F0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		58AD8BD518EBEF14001AB5F0 /* SBAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBAnimationViewController.h; sourceTree = "<group>"; };
+		58AD8BD618EBEF14001AB5F0 /* SBAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBAnimationViewController.m; sourceTree = "<group>"; };
+		B436EFF353B6405B8B53C2FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F52458FDE84E44903AE3ED /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58AD8B9B18EA0B77001AB5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD8BA418EA0B77001AB5F0 /* CoreGraphics.framework in Frameworks */,
+				58AD8BA618EA0B77001AB5F0 /* UIKit.framework in Frameworks */,
+				58AD8BA218EA0B77001AB5F0 /* Foundation.framework in Frameworks */,
+				FCD78C157C994025A696686A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AD8BB618EA0B78001AB5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD8BBB18EA0B78001AB5F0 /* XCTest.framework in Frameworks */,
+				58AD8BBD18EA0B78001AB5F0 /* UIKit.framework in Frameworks */,
+				58AD8BBC18EA0B78001AB5F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58AD8B9518EA0B77001AB5F0 = {
+			isa = PBXGroup;
+			children = (
+				58AD8BA718EA0B77001AB5F0 /* Animagic */,
+				58AD8BC018EA0B78001AB5F0 /* AnimagicTests */,
+				58AD8BA018EA0B77001AB5F0 /* Frameworks */,
+				58AD8B9F18EA0B77001AB5F0 /* Products */,
+				D2F52458FDE84E44903AE3ED /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		58AD8B9F18EA0B77001AB5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58AD8B9E18EA0B77001AB5F0 /* Animagic.app */,
+				58AD8BB918EA0B78001AB5F0 /* AnimagicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58AD8BA018EA0B77001AB5F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58AD8BA118EA0B77001AB5F0 /* Foundation.framework */,
+				58AD8BA318EA0B77001AB5F0 /* CoreGraphics.framework */,
+				58AD8BA518EA0B77001AB5F0 /* UIKit.framework */,
+				58AD8BBA18EA0B78001AB5F0 /* XCTest.framework */,
+				B436EFF353B6405B8B53C2FF /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58AD8BA718EA0B77001AB5F0 /* Animagic */ = {
+			isa = PBXGroup;
+			children = (
+				58AD8BB018EA0B77001AB5F0 /* SBAppDelegate.h */,
+				58AD8BB118EA0B77001AB5F0 /* SBAppDelegate.m */,
+				58AD8BB318EA0B77001AB5F0 /* Images.xcassets */,
+				58AD8BD018EA1A66001AB5F0 /* Main.storyboard */,
+				5861303A19001DAD00D27A8B /* SBTextField.h */,
+				5861303B19001DAE00D27A8B /* SBTextField.m */,
+				58AD8BD518EBEF14001AB5F0 /* SBAnimationViewController.h */,
+				58AD8BD618EBEF14001AB5F0 /* SBAnimationViewController.m */,
+				588B0CCD190B5BF600AFD30E /* SBFramesConfig.h */,
+				588B0CCE190B5BF600AFD30E /* SBFramesConfig.m */,
+				58AD8BA818EA0B77001AB5F0 /* Supporting Files */,
+			);
+			path = Animagic;
+			sourceTree = "<group>";
+		};
+		58AD8BA818EA0B77001AB5F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58AD8BA918EA0B77001AB5F0 /* Animagic-Info.plist */,
+				58AD8BAA18EA0B77001AB5F0 /* InfoPlist.strings */,
+				58AD8BAD18EA0B77001AB5F0 /* main.m */,
+				58AD8BAF18EA0B77001AB5F0 /* Animagic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58AD8BC018EA0B78001AB5F0 /* AnimagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				58AD8BC618EA0B78001AB5F0 /* AnimagicTests.m */,
+				58AD8BC118EA0B78001AB5F0 /* Supporting Files */,
+			);
+			path = AnimagicTests;
+			sourceTree = "<group>";
+		};
+		58AD8BC118EA0B78001AB5F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58AD8BC218EA0B78001AB5F0 /* AnimagicTests-Info.plist */,
+				58AD8BC318EA0B78001AB5F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58AD8B9D18EA0B77001AB5F0 /* Animagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AD8BCA18EA0B78001AB5F0 /* Build configuration list for PBXNativeTarget "Animagic" */;
+			buildPhases = (
+				D040E3392FF74154B44A321A /* Check Pods Manifest.lock */,
+				58AD8B9A18EA0B77001AB5F0 /* Sources */,
+				58AD8B9B18EA0B77001AB5F0 /* Frameworks */,
+				58AD8B9C18EA0B77001AB5F0 /* Resources */,
+				282B9B0F384E49F0A0D366FD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animagic;
+			productName = Animagic;
+			productReference = 58AD8B9E18EA0B77001AB5F0 /* Animagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58AD8BB818EA0B78001AB5F0 /* AnimagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AD8BCD18EA0B78001AB5F0 /* Build configuration list for PBXNativeTarget "AnimagicTests" */;
+			buildPhases = (
+				58AD8BB518EA0B78001AB5F0 /* Sources */,
+				58AD8BB618EA0B78001AB5F0 /* Frameworks */,
+				58AD8BB718EA0B78001AB5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58AD8BBF18EA0B78001AB5F0 /* PBXTargetDependency */,
+			);
+			name = AnimagicTests;
+			productName = AnimagicTests;
+			productReference = 58AD8BB918EA0B78001AB5F0 /* AnimagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58AD8B9618EA0B77001AB5F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shiv Baijal";
+				TargetAttributes = {
+					58AD8BB818EA0B78001AB5F0 = {
+						TestTargetID = 58AD8B9D18EA0B77001AB5F0;
+					};
+				};
+			};
+			buildConfigurationList = 58AD8B9918EA0B77001AB5F0 /* Build configuration list for PBXProject "Animagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58AD8B9518EA0B77001AB5F0;
+			productRefGroup = 58AD8B9F18EA0B77001AB5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58AD8B9D18EA0B77001AB5F0 /* Animagic */,
+				58AD8BB818EA0B78001AB5F0 /* AnimagicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58AD8B9C18EA0B77001AB5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD8BD118EA1A66001AB5F0 /* Main.storyboard in Resources */,
+				58AD8BAC18EA0B77001AB5F0 /* InfoPlist.strings in Resources */,
+				58AD8BB418EA0B77001AB5F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AD8BB718EA0B78001AB5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD8BC518EA0B78001AB5F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		282B9B0F384E49F0A0D366FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D040E3392FF74154B44A321A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58AD8B9A18EA0B77001AB5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD8BAE18EA0B77001AB5F0 /* main.m in Sources */,
+				58AD8BD718EBEF14001AB5F0 /* SBAnimationViewController.m in Sources */,
+				58AD8BB218EA0B77001AB5F0 /* SBAppDelegate.m in Sources */,
+				588B0CCF190B5BF600AFD30E /* SBFramesConfig.m in Sources */,
+				5861303C19001DAF00D27A8B /* SBTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AD8BB518EA0B78001AB5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AD8BC718EA0B78001AB5F0 /* AnimagicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58AD8BBF18EA0B78001AB5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AD8B9D18EA0B77001AB5F0 /* Animagic */;
+			targetProxy = 58AD8BBE18EA0B78001AB5F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58AD8BAA18EA0B77001AB5F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AD8BAB18EA0B77001AB5F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58AD8BC318EA0B78001AB5F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AD8BC418EA0B78001AB5F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58AD8BC818EA0B78001AB5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58AD8BC918EA0B78001AB5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58AD8BCB18EA0B78001AB5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F52458FDE84E44903AE3ED /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animagic/Animagic-Prefix.pch";
+				INFOPLIST_FILE = "Animagic/Animagic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58AD8BCC18EA0B78001AB5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F52458FDE84E44903AE3ED /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animagic/Animagic-Prefix.pch";
+				INFOPLIST_FILE = "Animagic/Animagic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58AD8BCE18EA0B78001AB5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animagic.app/Animagic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animagic/Animagic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnimagicTests/AnimagicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		58AD8BCF18EA0B78001AB5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Animagic.app/Animagic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animagic/Animagic-Prefix.pch";
+				INFOPLIST_FILE = "AnimagicTests/AnimagicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58AD8B9918EA0B77001AB5F0 /* Build configuration list for PBXProject "Animagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AD8BC818EA0B78001AB5F0 /* Debug */,
+				58AD8BC918EA0B78001AB5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AD8BCA18EA0B78001AB5F0 /* Build configuration list for PBXNativeTarget "Animagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AD8BCB18EA0B78001AB5F0 /* Debug */,
+				58AD8BCC18EA0B78001AB5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AD8BCD18EA0B78001AB5F0 /* Build configuration list for PBXNativeTarget "AnimagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AD8BCE18EA0B78001AB5F0 /* Debug */,
+				58AD8BCF18EA0B78001AB5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58AD8B9618EA0B77001AB5F0 /* Project object */;
+}

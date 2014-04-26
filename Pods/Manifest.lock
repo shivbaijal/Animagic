@@ -1,0 +1,16 @@
+PODS:
+  - JBChartView (2.1.0)
+  - RBBAnimation (0.3.0)
+  - TPKeyboardAvoiding (1.2.3)
+
+DEPENDENCIES:
+  - JBChartView (~> 2.1.0)
+  - RBBAnimation
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  JBChartView: da9c4831734a7e4a825a4c293405a5ef1e489fe0
+  RBBAnimation: e7f31ed62f760f3caf120b5d943267bd9a8e1f64
+  TPKeyboardAvoiding: 17995aaa6db26ac2a9fa8714a86509c5888f0392
+
+COCOAPODS: 0.32.1
